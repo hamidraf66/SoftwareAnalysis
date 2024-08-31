@@ -18,6 +18,13 @@
   margin-right: auto;
 }
 
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 body{
 	direction:rtl;
   font-family: SGKara-Regular;
