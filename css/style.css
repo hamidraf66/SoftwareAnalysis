@@ -1,7 +1,42 @@
-body {
-  background-color: #f8f9fa;
+@font-face {
+  font-family: SGKara-Regular;
+  src: url(fonts/SGKara-Regular.ttf);
 }
 
-h1 {
-  color: #007bff;
+@font-face {
+  font-family: SGKara-SemiBold;
+  src: url(fonts/SGKara-SemiBold.ttf);
 }
+
+@font-face {
+  font-family: SGKara-Light;
+  src: url(fonts/SGKara-Light.ttf);
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body{
+  background-color: #97b8b7;
+	direction:rtl;
+  font-family: SGKara-Regular;
+}
+
+.heading {
+  background-color: grey;
+  color: #007bff;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  text-align:center;
+}
+<body>
