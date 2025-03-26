@@ -1,5 +1,7 @@
 body {
-  font-family: Arial, sans-serif;
+  background-color: #97b8b7;
+	direction:rtl;
+  font-family: SGKara-Regular;
 }
 
 header {
