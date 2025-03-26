@@ -20,8 +20,7 @@ body {
 }
 
 header {
-  background: linear-gradient(135deg, #007bff, #00c4ff);
-  background-color: grey;
+  background: linear-gradient(135deg, #d1dae3, #b7d0eb);
   color: #007bff;
   border: 2px solid black;
   margin: 20px;
