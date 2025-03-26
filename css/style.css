@@ -33,11 +33,27 @@ h1, h2, h3 {
   font-family: SGKara-SemiBold;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%; /* اطمینان از پر شدن صفحه */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* حداقل ارتفاع برابر ارتفاع ویوپورت */
+}
+
+main {
+  flex: 1; /* گرفتن فضای باقی‌مانده */
+}
+
 footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
   background-color: #343a40;
   color: white;
-  padding: 1rem 0;
 }
