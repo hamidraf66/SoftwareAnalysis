@@ -28,6 +28,7 @@
 body{
 	direction:rtl;
   font-family: SGKara-Regular;
+	background-color: #f8f9fa;
 }
 
 .heading {
@@ -37,6 +38,9 @@ body{
   margin: 20px;
   padding: 20px;
   text-align:center;
+}
+h1 {
+  color: #007bff;
 }
 
 
