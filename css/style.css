@@ -1,11 +1,17 @@
 body {
   background-color: #97b8b7;
-	direction:rtl;
+  direction:rtl;
   font-family: SGKara-Regular;
 }
 
 header {
   background: linear-gradient(135deg, #007bff, #00c4ff);
+  background-color: grey;
+  color: #007bff;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  text-align:center;
 }
 
 h1, h2, h5 {
