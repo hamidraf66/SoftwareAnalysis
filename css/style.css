@@ -1,42 +1,16 @@
-@font-face {
-  font-family: SGKara-Regular;
-  src: url(fonts/SGKara-Regular.ttf);
+body {
+  font-family: Arial, sans-serif;
 }
 
-@font-face {
-  font-family: SGKara-SemiBold;
-  src: url(fonts/SGKara-SemiBold.ttf);
+header {
+  background: linear-gradient(135deg, #007bff, #00c4ff);
 }
 
-@font-face {
-  font-family: SGKara-Light;
-  src: url(fonts/SGKara-Light.ttf);
-}
-
-.center {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.centerImage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-body{
-  background-color: #97b8b7;
-	direction:rtl;
-  font-family: SGKara-Regular;
-}
-
-.heading {
-  background-color: grey;
+h1, h2, h5 {
   color: #007bff;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-  text-align:center;
 }
-<body>
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
