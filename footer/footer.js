@@ -1,5 +1,5 @@
 // footer.js
-fetch('../footer/footer.html')
+fetch('/footer.html')
   .then(response => {
     if (!response.ok) {
       throw new Error('خطا در بارگذاری فوتر');
